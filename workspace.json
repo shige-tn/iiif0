@@ -1,0 +1,16 @@
+{
+  "windows": [
+    {
+      "manifestId": "manifest.json",
+      "canvasId": "canvas-1"
+    },
+    {
+      "manifestId": "manifest.json",
+      "canvasId": "canvas-2"
+    }
+  ],
+
+  "workspace": {
+    "type": "mosaic"
+  }
+}

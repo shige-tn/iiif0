@@ -1,0 +1,33 @@
+{
+  "type": "AnnotationPage",
+
+  "items": [
+    {
+      "id": "anno-1",
+      "type": "Annotation",
+      "motivation": "commenting",
+
+      "body": {
+        "type": "TextualBody",
+        "value": "ここは『あ』と読める",
+        "language": "ja"
+      },
+
+      "target": "canvas-1#xywh=200,200,600,300"
+    },
+
+    {
+      "id": "anno-2",
+      "type": "Annotation",
+      "motivation": "commenting",
+
+      "body": {
+        "type": "TextualBody",
+        "value": "墨のにじみがある",
+        "language": "ja"
+      },
+
+      "target": "canvas-1#xywh=900,400,400,200"
+    }
+  ]
+}
