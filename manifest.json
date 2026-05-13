@@ -1,4 +1,13 @@
 {
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "type": "Manifest",
+  "id": "manifest.json",
+
+  "label": {
+    "ja": ["IIIF Annotation Test"]
+  },
+
+  "items": [
 
     {
       "id": "canvas-1",
