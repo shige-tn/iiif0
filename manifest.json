@@ -1,24 +1,4 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "type": "Manifest",
-  "id": "manifest.json",
-
-  "label": {
-    "ja": ["IIIF Annotation Test"]
-  },
-
-  "metadata": [
-    {
-      "label": {
-        "ja": ["作成者"]
-      },
-      "value": {
-        "ja": ["テスト環境"]
-      }
-    }
-  ],
-
-  "items": [
 
     {
       "id": "canvas-1",
@@ -81,87 +61,12 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-}{
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "type": "Manifest",
-  "id": "manifest.json",
 
-  "label": {
-    "ja": ["IIIF Annotation Test"]
-  },
-
-  "metadata": [
-    {
-      "label": {
-        "ja": ["作成者"]
-      },
-      "value": {
-        "ja": ["テスト環境"]
-      }
-    }
-  ],
-
-  "items": [
-
-    {
-      "id": "canvas-1",
-      "type": "Canvas",
-      "width": 2000,
-      "height": 1125,
-
-      "label": {
-        "ja": ["Page 1"]
-      },
-
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "type": "Annotation",
-              "motivation": "painting",
-
-              "body": {
-                "id": "images/page1.jpg",
-                "type": "Image",
-                "format": "image/jpeg"
-              },
-
-              "target": "canvas-1"
+              "target": "canvas-2"
             }
           ]
         }
-      ],
-
-      "annotations": [
-        {
-          "id": "annotations.json",
-          "type": "AnnotationPage"
-        }
       ]
-    },
-
-    {
-      "id": "canvas-2",
-      "type": "Canvas",
-      "width": 2000,
-      "height": 1125,
-
-      "label": {
-        "ja": ["Page 2"]
-      },
-
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "type": "Annotation",
-              "motivation": "painting",
-
-              "body": {
-                "id": "images/page2.jpg",
-                "type": "Image",
-                "format": "image/jpeg"
-              },
+    }
+  ]
 }
