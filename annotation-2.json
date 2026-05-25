@@ -3,31 +3,31 @@
 
   "items": [
     {
-      "id": "anno-1",
+      "id": "anno-21",
       "type": "Annotation",
       "motivation": "commenting",
 
       "body": {
         "type": "TextualBody",
-        "value": "マンデビラの花の中心である",
+        "value": "侍従川の場所その1",
         "language": "ja"
       },
 
-     "target": "canvas-1#xywh=520,274,100,100"
+     "target": "canvas-2#xywh=520,274,100,100"
     },
 
     {
-      "id": "anno-2",
+      "id": "anno-22",
       "type": "Annotation",
       "motivation": "commenting",
 
       "body": {
         "type": "TextualBody",
-        "value": "ピンクの花の下の方",
+        "value": "侍従川の場所その2",
         "language": "ja"
       },
 
-      "target": "canvas-1#xywh=300,500,100,100"
+      "target": "canvas-2#xywh=300,500,100,100"
     }
   ]
 }
