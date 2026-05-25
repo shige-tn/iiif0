@@ -23,11 +23,11 @@
 
       "body": {
         "type": "TextualBody",
-        "value": "侍従川",
+        "value": "橋の下を通ろうとする船",
         "language": "ja"
       },
 
-      "target": "canvas-1#xywh=400,300,100,100"
+      "target": "canvas-1#xywh=76,482,100,100"
     }
   ]
 }
