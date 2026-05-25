@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Simple IIIF Annotator</title>
+
+<style>
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+#container {
+  position: relative;
+  display: inline-block;
+}
+
+#img {
+  max-width: 100%;
+  border: 1px solid #888;
+}
+
+#box {
+  position: absolute;
+  border: 3px solid red;
+  pointer-events: none;
+  display: none;
+}
+
+textarea {
+  width: 500px;
+  height: 100px;
+}
+
+pre {
+  background: #eee;
+  padding: 10px;
+  overflow-x: auto;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Simple IIIF Annotation Editor</h2>
+
+<div id="container">
+  <img id="img" src="images/page1.jpg">
+  <div id="box"></div>
+</div>
+
+<p>
+クリック位置:
+<span id="coords">---</span>
+</p>
+
+<p>
+Annotation text:
+</p>
+
+<textarea id="text"></textarea>
+
+<br><br>
+
+<button onclick="makeAnnotation()">
+Generate Annotation
+</button>
+
+<button onclick="downloadJSON()">
+Download JSON
+</button>
+
+<h3>Generated JSON</h3>
+
+<pre id="output"></pre>
+
+<script>
+
+const img = document.getElementById('img');
+const box = document.getElementById('box');
+
+let x = 0;
+let y = 0;
+
+img.addEventListener('click', function(e) {
+
+  const rect = img.getBoundingClientRect();
+
+  x = Math.round(e.clientX - rect.left);
+  y = Math.round(e.clientY - rect.top);
+
+  document.getElementById('coords').textContent =
+    `x=${x}, y=${y}`;
+
+  box.style.left = (x - 50) + 'px';
+  box.style.top = (y - 50) + 'px';
+  box.style.width = '100px';
+  box.style.height = '100px';
+  box.style.display = 'block';
+});
+
+function makeAnnotation() {
+
+  const text =
+    document.getElementById('text').value;
+
+  const anno = {
+    id: "anno-" + Date.now(),
+
+    type: "Annotation",
+
+    motivation: "commenting",
+
+    body: {
+      type: "TextualBody",
+      value: text,
+      language: "ja"
+    },
+
+    target:
+      `canvas-1#xywh=${x-50},${y-50},100,100`
+  };
+
+  document.getElementById('output').textContent =
+    JSON.stringify(anno, null, 2);
+}
+
+function downloadJSON() {
+
+  const text =
+    document.getElementById('output').textContent;
+
+  const blob =
+    new Blob([text], {type: 'application/json'});
+
+  const a =
+    document.createElement('a');
+
+  a.href = URL.createObjectURL(blob);
+
+  a.download = 'annotation.json';
+
+  a.click();
+}
+
+</script>
+
+</body>
+</html>
