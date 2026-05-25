@@ -75,6 +75,12 @@
             }
           ]
         }
+      ],
+      "annotations":[
+        {
+          "id":"annotation-2.json",
+          "type": "AnnotationPage"
+        }
       ]
     }
   ]
