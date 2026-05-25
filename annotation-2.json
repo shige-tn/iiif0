@@ -1,0 +1,33 @@
+{
+  "type": "AnnotationPage",
+
+  "items": [
+    {
+      "id": "anno-1",
+      "type": "Annotation",
+      "motivation": "commenting",
+
+      "body": {
+        "type": "TextualBody",
+        "value": "マンデビラの花の中心である",
+        "language": "ja"
+      },
+
+     "target": "canvas-1#xywh=920,274,100,100"
+    },
+
+    {
+      "id": "anno-2",
+      "type": "Annotation",
+      "motivation": "commenting",
+
+      "body": {
+        "type": "TextualBody",
+        "value": "ピンクの花の下の方",
+        "language": "ja"
+      },
+
+      "target": "canvas-1#xywh=885,500,200,200"
+    }
+  ]
+}
