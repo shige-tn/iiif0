@@ -28,7 +28,7 @@
               "motivation": "painting",
 
               "body": {
-                "id": "images/page1.jpg",
+                "id": "https://shige-tn.github.io/iiif0/images/page1.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -41,7 +41,7 @@
 
       "annotations": [
         {
-          "id": "annotation-1.json",
+          "id": "https://shige-tn.github.io/iiif0/annotation-1.json",
           "type": "AnnotationPage"
         }
       ]
