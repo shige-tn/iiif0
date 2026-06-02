@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
-  "id": "https://shige-tn.github.io/iiif0/manifest.json",
+  "id": "manifest.json",
 
   "label": {
     "ja": ["IIIF Annotation Test"]
@@ -28,7 +28,7 @@
               "motivation": "painting",
 
               "body": {
-                "id": "https://shige-tn.github.io/iiif0/images/page1.jpg",
+                "id": "images/page1.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
@@ -41,7 +41,7 @@
 
       "annotations": [
         {
-          "id": "https://shige-tn.github.io/iiif0/annotation-1.json",
+          "id": "annotation-1.json",
           "type": "AnnotationPage"
         }
       ]
@@ -78,7 +78,7 @@
       ],
       "annotations":[
         {
-          "id":"https://shige-tn.github.io/iiif0/annotation-2.json",
+          "id": "https://shige-tn.github.io/iiif0/annotation-2.json",
           "type": "AnnotationPage"
         }
       ]
