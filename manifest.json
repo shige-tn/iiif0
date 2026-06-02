@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
-  "id": "manifest.json",
+  "id": "https://shige-tn.github.io/iiif0/manifest.json",
 
   "label": {
     "ja": ["IIIF Annotation Test"]
