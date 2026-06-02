@@ -3,8 +3,7 @@
 
   "items": [
     {
-    //  "id": "anno-1",
-      "id": "canvas-1",
+      "id": "anno-1",
       "type": "Annotation",
       "motivation": "commenting",
 
