@@ -9,11 +9,11 @@
 
       "body": {
         "type": "TextualBody",
-        "value": "石",
+        "value": "石　いし",
         "language": "ja"
       },
 
-     "target": "canvas-1#xywh=894,405,100,100"
+     "target": "canvas-1#xywh=894,405,200,200"
     },
 
     {
@@ -23,11 +23,24 @@
 
       "body": {
         "type": "TextualBody",
-        "value": "厳",
+        "value": "厳　がん",
         "language": "ja"
       },
 
-      "target": "canvas-1#xywh=896,705,100,100"
-    }
+      "target": "canvas-1#xywh=896,705,200,200"
+    },
+    {
+      "id": "anno-2",
+      "type": "Annotation",
+      "motivation": "commenting",
+
+      "body": {
+        "type": "TextualBody",
+        "value": "當　とう",
+        "language": "ja"
+      },
+
+      "target": "canvas-1#xywh=900,1007,200,200"
+    }    
   ]
 }
