@@ -12,8 +12,8 @@
     {
       "id": "canvas-1",
       "type": "Canvas",
-      "width": 944,
-      "height": 718,
+      "width": 2048,
+      "height": 1536,
 
       "label": {
         "ja": ["Page 1"]

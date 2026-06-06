@@ -9,11 +9,11 @@
 
       "body": {
         "type": "TextualBody",
-        "value": "富士山",
+        "value": "石",
         "language": "ja"
       },
 
-     "target": "canvas-1#xywh=106,95,100,100"
+     "target": "canvas-1#xywh=894,405,100,100"
     },
 
     {
@@ -23,11 +23,11 @@
 
       "body": {
         "type": "TextualBody",
-        "value": "橋の下を通ろうとする船",
+        "value": "厳",
         "language": "ja"
       },
 
-      "target": "canvas-1#xywh=76,482,100,100"
+      "target": "canvas-1#xywh=896,705,100,100"
     }
   ]
 }
