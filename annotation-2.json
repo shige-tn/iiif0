@@ -13,7 +13,7 @@
         "language": "ja"
       },
 
-     "target": "canvas-2#xywh=621,473,400,400"
+     "target": "canvas-2#xywh=721,473,400,400"
     },
 
     {
@@ -27,7 +27,7 @@
         "language": "ja"
       },
 
-      "target": "canvas-2#xywh=639,334,300,300"
+      "target": "canvas-2#xywh=700,334,300,300"
     }
   ]
 }
