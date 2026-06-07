@@ -9,11 +9,11 @@
 
       "body": {
         "type": "TextualBody",
-        "value": "オオゴマダラ",
+        "value": "侍従川の場所その1",
         "language": "ja"
       },
 
-     "target": "canvas-2#xywh=621,673,200,200"
+     "target": "canvas-2#xywh=520,274,100,100"
     },
 
     {
@@ -23,11 +23,11 @@
 
       "body": {
         "type": "TextualBody",
-        "value": "むつうさ",
+        "value": "侍従川の場所その2",
         "language": "ja"
       },
 
-      "target": "canvas-2#xywh=639,234,100,100"
+      "target": "canvas-2#xywh=300,500,100,100"
     }
   ]
 }
