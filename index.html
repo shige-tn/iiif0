@@ -7,10 +7,9 @@
 
 <title>IIIF Memo Viewer</title>
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./style.css">
 
-<link rel="stylesheet"
-href="https://unpkg.com/mirador@latest/dist/css/mirador-combined.min.css">
+<link rel="stylesheet" href="https://unpkg.com/mirador@latest/dist/css/mirador-combined.min.css">
 
 <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
 
@@ -62,9 +61,13 @@ manifest.json
 <section>
 
 <h2>Viewer</h2>
-
+<p style="background:yellow">
+ここが Viewer の直前です
+</p>
 <div id="viewer"></div>
-
+<p style="background:lightgreen">
+ここが Viewer の直後です
+</p>
 </section>
 
 
@@ -78,7 +81,7 @@ manifest.json
 
 <li>Workspace の保存確認</li>
 
-<li>Mirador 表示確認</li>
+<li>Mirador 表示確認 変体仮名　テスト𛀂𛀈𛀎𛀏𛀔 𛀙</li>
 
 </ul>
 
@@ -99,6 +102,7 @@ Created by ○○
 
 
 <script>
+console.log("Mirador start");
 
 Mirador.viewer({
 

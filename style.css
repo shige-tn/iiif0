@@ -48,19 +48,22 @@ h2{
 
 
 #viewer{
+   width:100%;
 
-    width:100%;
+    height:500px;
 
-    height:700px;
+    margin-top:20px;
 
-    border:1px solid #888;
+    margin-bottom:20px;
 
+    border:1px solid #999;
+ 
 }
 
 
 footer{
 
-    color:#666;
+    color:#F00;
 
     font-size:90%;
 
