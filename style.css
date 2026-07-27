@@ -1,6 +1,11 @@
+@font-face {
+	font-family:HentaiKana ;
+	src: url('UniHentaiKana-Regular.woff') format('woff') ;
+}
+
 body{
 
-    font-family: 'UniHentaiKana', sans-serif;
+    font-family: serif,HentaiKana ;
 
     max-width:1100px;
 
